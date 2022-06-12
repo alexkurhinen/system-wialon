@@ -1,0 +1,28 @@
+.anytask {
+  padding-top: 92px;
+}
+
+.anytask__title {
+  width: 884px;
+  margin-bottom: 40px;
+}
+
+.anytask__content {
+  margin-top: 45px;
+}
+.anytask__content .active {
+  display: block;
+}
+.anytask__content img {
+  cursor: pointer;
+}
+
+.anytask__img {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=anytask.css.map */

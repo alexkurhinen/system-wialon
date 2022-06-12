@@ -1,0 +1,75 @@
+.anytask__tabs {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.anytask__button {
+  margin-left: 5px;
+  height: 56px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #dbdbdb;
+  background: #ffff;
+  color: rgba(0, 0, 0, 0.64);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+
+  &:hover {
+    background-color: $accent-color-hover;
+    color: #ffff;
+  }
+}
+
+.anytask__button.active {
+  background-color: $accent-color-hover;
+  color: #ffff;
+}
+
+.anytask__tabs-item--1 {
+  max-width: 174px;
+  flex-shrink: 0;
+}
+
+.anytask__tabs-item--2 {
+  max-width: 176px;
+  flex-shrink: 0;
+}
+.anytask__tabs-item--3 {
+  max-width: 220px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.anytask__tabs-item--4 {
+  max-width: 227px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.anytask__tabs-item--5 {
+  max-width: 223px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.anytask__tabs-item--6 {
+  max-width: 205px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.anytask__tabs-item--7 {
+  max-width: 227px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.anytask__tabs-item--8 {
+  max-width: 240px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.anytask__tabs-item--9 {
+  max-width: 227px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}

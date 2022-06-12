@@ -1,0 +1,20 @@
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
+// Blocks
+@import "./blocks/header";
+@import "./blocks/logo";
+@import "./blocks/footer";
+
+@import "./blocks/_buttons";
+@import "./blocks/wialon";
+@import "./blocks/titles";
+@import "./blocks/anytask.scss";
+@import "./blocks/tabs";
+@import "./blocks/amount";
+@import "./blocks/howworks";
+@import "./blocks/hw";
+@import "./blocks/find-office";
+@import "./blocks/dropdown";

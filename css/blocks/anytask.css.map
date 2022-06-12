@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAS;EACP,WAAW,EAAE,IAAI;;;AAEnB,eAAgB;EACd,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,IAAI;;;AAErB,iBAAkB;EAChB,UAAU,EAAE,IAAI;;AAChB,yBAAQ;EACN,OAAO,EAAE,KAAK;;AAEhB,qBAAG;EACD,MAAM,EAAE,OAAO;;;AAInB,aAAc;EACZ,OAAO,EAAE,IAAI;;;AAGf,OAAQ;EACN,OAAO,EAAE,IAAI",
+"sources": ["../../sass/blocks/anytask.scss"],
+"names": [],
+"file": "anytask.css"
+}

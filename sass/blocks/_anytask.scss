@@ -1,0 +1,33 @@
+.anytask {
+  padding-top: 92px;
+}
+.anytask__title {
+  width: 884px;
+  margin-bottom: 40px;
+}
+.anytask__wrapper {
+  margin: 0 auto;
+  position: relative;
+}
+.anytask__white-shading {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.anytask__content {
+  margin-top: 45px;
+  .active {
+    display: block;
+  }
+  img {
+    cursor: pointer;
+  }
+}
+
+.anytask__img {
+  display: none;
+}
+
+.anytask__img-bigger{
+  transform: scale(1.1);
+}

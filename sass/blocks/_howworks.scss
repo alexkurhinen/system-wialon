@@ -1,0 +1,26 @@
+.howworks {
+  background: #f7f7f5;
+}
+.howworks__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.howworks__content {
+  max-width: 570px;
+  p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.64);
+  }
+}
+.howworks__title {
+  margin-bottom: 24px;
+}
+
+.howworks__row-second{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #fff;
+}
