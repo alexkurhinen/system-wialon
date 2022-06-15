@@ -4,7 +4,6 @@ function tab() {
   const tabs = document.querySelectorAll(".anytask__button");
   const contents = document.querySelectorAll(".anytask__img");
   const img = document.querySelectorAll(".img");
-  console.log(img);
   tabs.forEach(btnClick);
 
   function btnClick(item) {
@@ -12,7 +11,6 @@ function tab() {
       const currentTab = item;
       const tabId = currentTab.getAttribute("data-tab");
       const currentContent = document.querySelector(tabId);
-      console.log(currentContent);
 
       if (!currentTab.classList.contains("active")) {
         tabs.forEach(function (item) {
@@ -29,7 +27,7 @@ function tab() {
     });
   }
   document.querySelector(".anytask__button").click();
-  
+
   img.forEach(function (img) {
     img.addEventListener("click", function () {
       img.classList.toggle("anytask__img-bigger");
@@ -68,6 +66,9 @@ tab();
 const countryLink =
   "https://cs.wialon.com/svcs/regions/v1/countries?extended=1";
 
+const cityLink =
+  "https://cs.wialon.com/svcs/regions/v1/cities?country_id=%7BCOUNTRY_ID";
+
 function Get(countryLink) {
   var Httpreq = new XMLHttpRequest();
   Httpreq.open("GET", countryLink, false);
@@ -81,4 +82,19 @@ json_obj.forEach((element) => {
   countryName.push(element.name);
 });
 
-// console.log(countryName);
+$(function () {
+  $("#input").autocomplete({
+    source: countryName,
+  });
+});
+
+// let country;
+
+// $("#input").autocomplete({ source: countryName });
+// $("#input").autocomplete({
+//   change: function (event, ui) {
+//    console.log(ui.item.value);
+//   },
+// });
+
+// console.log(country);
